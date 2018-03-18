@@ -1,5 +1,5 @@
-// Type definitions for firebase-utilities
-// Project: https://github.com/jocafi/firebase-utilities
+// Type definitions for logging-service-node
+// Project: https://github.com/jocafi/logging-service-node
 // Definitions by: Joao Araujo (jocafi) <https://github.com/jocafi>
 
 // -----------------------------------------------------------------------------
