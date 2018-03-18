@@ -8,19 +8,18 @@
   "types": "lib/index.d.ts",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jocafi/firebase-utilities.git"
+    "url": "git+https://github.com/jocafi/logging-service-node"
+  },
+  "bugs": {
+    "url": "https://github.com/jocafi/logging-service-node/issues"
   },
   "keywords": [
-    "firebase",
-    "utilities",
+    "logging",
+    "log",
     "service",
-    "crud",
-    "library",
-    "load",
-    "import",
-    "json loader",
-    "Realtime Database",
-    "Cloud Firestore"
+    "javascript",
+    "typescript",
+    "log4js"
   ],
   "scripts": {
     "clean": "rimraf lib",
@@ -32,9 +31,6 @@
     "jasmine": "jasmine",
     "tslint": "tslint -c tslint.json -p tsconfig.json",
     "tslint-fix": "tslint --fix -c tslint.json -p tsconfig.json"
-  },
-  "bugs": {
-    "url": "https://github.com/jocafi/firebase-utilities/issues"
   },
   "dependencies": {
     "log4js": "^2.5.3"
