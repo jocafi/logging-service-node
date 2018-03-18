@@ -19,7 +19,7 @@ npm install jocafi/logging-service-node
 
 Import the library
 
-`import { LoggingService } from "logging-service";`
+`import { LoggingService } from "logging-service-node";`
 
 First of all, you have to call once the _initializeLoggingService()_ method before calling any other method.
 
