@@ -1,0 +1,54 @@
+{
+  "name": "firebase-utilities",
+  "version": "1.0.0",
+  "description": "Logging Service for Nodejs or JavaScript engines which do not need to work with the window component.",
+  "author": "Joao Araujo (jocafi)",
+  "license": "MIT",
+  "main": "index.js",
+  "types": "lib/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jocafi/firebase-utilities.git"
+  },
+  "keywords": [
+    "firebase",
+    "utilities",
+    "service",
+    "crud",
+    "library",
+    "load",
+    "import",
+    "json loader",
+    "Realtime Database",
+    "Cloud Firestore"
+  ],
+  "scripts": {
+    "clean": "rimraf lib",
+    "clean-all": "rimraf lib && rimraf build && rimraf coverage",
+    "build": "tsc",
+    "build-test": "tsc -p ./config/tsconfig.test.json",
+    "debug": "node --nolazy --inspect-brk=9229 convert-to-json.js",
+    "test": "karma start",
+    "jasmine": "jasmine",
+    "tslint": "tslint -c tslint.json -p tsconfig.json",
+    "tslint-fix": "tslint --fix -c tslint.json -p tsconfig.json"
+  },
+  "bugs": {
+    "url": "https://github.com/jocafi/firebase-utilities/issues"
+  },
+  "dependencies": {
+    "log4js": "^2.5.3"
+  },
+  "devDependencies": {
+    "@types/jasmine": "^2.8.6",
+    "jasmine": "^3.1.0",
+    "jasmine-ts-console-reporter": "^3.1.1",
+    "karma": "^2.0.0",
+    "karma-chrome-launcher": "^2.2.0",
+    "karma-jasmine": "^1.1.1",
+    "karma-typescript": "^3.0.12",
+    "rimraf": "^2.6.2",
+    "ts-node": "^5.0.1",
+    "typescript": "^2.7.2"
+  }
+}
