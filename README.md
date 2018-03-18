@@ -52,7 +52,7 @@ export class SupportService {
 }
 ```
 
-The _StartAppService_ class shows how to initialize the logging service once during 
+The **StartAppService** class shows how to initialize the logging service once during 
 the initialization of your App and how to use the local log (_this.log_) variable to log.
 
 Subsequent classes, as showed by **MyOtherClass** class, can now define and create 
