@@ -4,7 +4,7 @@
   "description": "Logging Service for Nodejs or JavaScript engines which do not need to work with the window component.",
   "author": "Joao Araujo (jocafi)",
   "license": "MIT",
-  "main": "index.js",
+  "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "repository": {
     "type": "git",
