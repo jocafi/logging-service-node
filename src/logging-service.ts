@@ -19,6 +19,7 @@ export class LoggingService {
     if (!LoggingService.log) {
 
       // see https://log4js-node.github.io/log4js-node/layouts.html
+      // TODO: test it : https://github.com/log4js-node/log4js-node/issues/471
       const patternLayout: PatternLayout = {
         type: "pattern",
         pattern: "%[%d{hh:mm:ss.SSS} [%5.10p] %20.35c - %m%n%]"
